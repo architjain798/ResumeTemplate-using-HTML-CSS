@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Baloo Bhai 2', cursive;
+    box-sizing: border-box;
+}
+.menu-items{
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+    font-weight: 600;
+    font-size: 18px;
+}
+.menu{
+    margin: 0.3% 25%;
+    padding: 1%;
+    
+}
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.menu a:hover{
+    text-decoration: underline;
+    font-size: 110%;
+    color: rgb(179, 194, 47);
+}
+header{
+    background-image: url('images/pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 60vh;
+    margin-top: -1%;
+    color: aliceblue;
+    position: sticky;
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+}
+#user-name{
+    text-align: center;
+    /* font-size: 5rem; */
+    font-size: 380%;
+    letter-spacing: 0.1rem;
+}
+.link-profile img{
+    width: 3%;
+    height: auto;
+    padding: 0.5%;
+}
+.link-profile{
+    text-align: center;
+    margin-top: 3%;
+}
+.link-profile a img:hover{
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    box-shadow: 0px 0px 6px 4px rgba(221, 23, 23, 0.801);
+}
+#prfile-detail p{
+    text-align: center;
+    padding: 0%;
+    font-size: 1.3rem;
+    width: 60vw;
+    margin: 2% 16% 0% 16%;
+}
+#pic{
+    width: 15rem;
+    height: 15rem;
+    margin: auto;
+    display: flex;
+    margin-top: -6%;
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    box-shadow: 0px 0px 6px 4px rgb(221 23 23 / 80%);
+}
+.styled-first-letter::first-letter{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+
+
+
+section:nth-child(2n)
+{
+    background-color: rgba(240, 236, 247, 0.849);
+}
+section:nth-child(2n+1)
+{
+    background-color: rgb(199, 185, 185);
+}
+#skill{
+    width: 100vw; 
+    padding: 5%;
+}
+.heading{
+    text-align: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: darkblue;
+}
+.skill-detail{
+    width: 100%;
+    /* border: 2px solid blueviolet; */
+}
+.skill-progress{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.color{
+    border: 2px solid rgb(0, 0, 0);
+    width: 25%;
+    border-radius: 3%;
+    color: cornsilk;
+    margin: 3%;
+    display: flex;
+}
+.color span{
+    border-radius: 0%
+}
+#cpp{
+    width: 75%;
+    display: inline-block;
+    background-color: chocolate;
+}
+#html{
+    width: 80%;
+    display: inline-block;
+    background-color: rgb(40, 21, 211);
+}
+#css{
+    width: 60%;
+    display: inline-block;
+    background-color: rgb(255, 1, 1);
+}
+#javascript{
+    width: 50%;
+    display: inline-block;
+    background-color: rgb(0, 17, 255);
+}
+#java{
+    width: 50%;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+}
+#android{
+    width: 30%;
+    display: inline-block;
+    background-color: rgb(255, 124, 30);
+}
+#ios{
+    width: 30%;
+    display: inline-block;
+    background-color: rgb(255, 57, 8);
+}
+#nodejs{
+    width: 45;
+    display: inline-block;
+    background-color: rgb(223, 48, 48);
+}
+
+
+
+
+
+#portfolio-heading{
+    text-align: center;
+}
+.folio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.folio img{
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+}
+#portfolio-heading{
+    margin-top: 0%;
+}
+
+
+
+
+#contact{
+    background-image:linear-gradient(90deg,#2857a4,#403066);
+    padding: 1% 5% 1% 5%;
+    color: white;
+}
+.contact-main{
+    display: flex;
+    justify-content:space-around;
+}
+.contact-left{
+    width: 40%;
+    position: relative;
+    overflow:auto;
+}
+.list{
+    list-style-type: none;
+}
+#address::before{
+    content: '';
+    background-image: url(images/address.png);
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    margin-right: 1%;
+}
+#mobile::before{
+    content: '';
+    background-image: url(images/mobile.png);
+    display: inline-block;
+    width: 25px;
+    height: 21px;
+    background-size: contain;
+    margin-right: 1%;
+}
+#mail::before{
+    content: '';
+    background-image: url(images/email.png);
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    margin-right: 1%;
+}
+
+#contact-btn{
+    font-size: 1.1rem;
+    width: 50%;
+    height: auto;
+    background-color: #bad8c9;
+    font-weight: bold;
+    padding: 1%;
+    cursor: pointer;
+    overflow-wrap: break-word;
+}
+#contact-btn:hover{
+    background-color: rgb(233, 85, 17);
+    font-size: 1.4rem;
+}
+.contact-right{
+    width: 40%;
+    font-size: 1.1rem;
+}
+
+section:target{
+    background-color: cyan;
+}
